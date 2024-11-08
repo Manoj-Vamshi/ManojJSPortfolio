@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px;
+    background-color: #fff; 
+}
+
+
+.header-title {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header-left h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.header-left p {
+    font-size: 18px;
+    color: #555;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px; 
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 40px;
+    position: relative;
+    max-width: 100%;
+}
+
+.profile-picture {
+    width: 850px;
+    height: 500px;
+    border-radius: none;
+    background-image: 
+        linear-gradient(to right, rgba(0, 0, 0, 0.007) 30%, #f5f5f5 90%), 
+        url('IMG_2016n.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.about-section {
+    text-align: left;
+    max-width: 600px;  
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.8);  
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.388);
+}
+
+.about-section h2 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.button-group .btn {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.button-group .btn:hover {
+    transform: scale(1.1);
+}
+
+.btn.resume { background-color: #a8d080; }
+.btn.Projects { background-color: #f6a56f; }
+.btn.About { background-color: #7ac4d0; }
+.btn.Contact { background-color: #d0d0d0; }
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 20px;
+    background-color: #333;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.footer a:hover {
+    color: #f1c40f;
+}
+
+@media (max-width: 768px) {
+    .profile-section {
+        flex-direction: column;  
+        gap: 20px;  
+    }
+
+    .profile-picture {
+        width: 300px; 
+        height: 300px;  
+    }
+
+    .about-section {
+        width: 90%;  
+        max-width: 100%;  
+    }
+}
+
+
+/* //contact form style */
+
+#contact {
+    background-color: #f9f9f9;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.contact-container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    align-items: left;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input:focus, textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.submit-btn {
+    background-color: #f6a56f;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #f6a56f;
+}
+
+@media screen and (max-width: 600px) {
+    .contact-container {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .submit-btn {
+        padding: 12px 18px;
+        font-size: 1rem;
+    }
+}
