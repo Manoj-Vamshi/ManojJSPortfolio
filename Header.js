@@ -2,22 +2,29 @@ function loadContent(page) {
     const content = document.getElementById('content');
     let html = '';
     switch(page) {
-        case 'resume':
+        case 'Azure':
             html = `
-            <h2>Resume</h2>
-            
+            <h2>Azure</h2>
             `;
             break;
-        case 'Projects':
+        case 'Phyton':
             html = `
-            <h2>Projects</h2>
-            
+            <h2>Phyton</h2>
             `;
             break;
-        case 'About':
+        case 'Java':
+            html = `            
+            <h2>Java</h2>
+            `;
+            break;
+        case 'javaScript':
             html = `
-            <h2>About</h2>
-            
+            <h2>javaScript</h2>
+            `;
+            break;
+        case 'reactJS':
+            html = `
+            <h2>reactJS</h2>
             `;
             break;
         case 'Contact':

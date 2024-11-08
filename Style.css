@@ -264,3 +264,38 @@ input:focus, textarea:focus {
         font-size: 1rem;
     }
 }
+
+/* Projects styling */
+.button-group1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.button-group1 .btn {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.button-group1 .btn:hover {
+    transform: scale(1.1);
+}
+
+.btn.Azure { background-color: #a8d080; }
+.btn.Python { background-color: #f6a56f; }
+.btn.Java { background-color: #7ac4d0; }
+.btn.JavaScript { background-color: #bd6262; }
+.btn.HtmlCSS { background-color: #f4c542; }
+.btn.ReactJS { background-color: #244c56; }
+.btn.Contact { background-color: #f4b9bc; }
