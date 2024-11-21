@@ -83,6 +83,26 @@ body {
     overflow: hidden;
     cursor: pointer;
 }
+.about-section1 {
+    text-align: left;
+    max-width: 600px;  
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.8);  
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.388);
+}
+
+.about-section1 h2 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about-section1 p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
 
 
 .button-group {
@@ -449,3 +469,64 @@ about me styling */
     line-height: 1.8;
     color: #333;
 }
+/* resume */
+
+/* Container for the two sections */
+.Resumecontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 30px auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+/* Styling for each section */
+.resume-section, .resume {
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-top: 15%;
+    padding: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 48%;  
+    
+}
+
+
+.resume-section h2, .resume h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.resume-section p, .resume p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+

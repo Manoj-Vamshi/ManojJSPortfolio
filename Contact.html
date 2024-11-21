@@ -57,26 +57,24 @@
                         </a>
                     </div>
             </div>
-
-            <div class="contact-form">
-                <form id="contact-form">
-                    <div class="form-group">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
-                    </div>
-                    <button type="submit" class="submit-btn">Send Message</button>
-                </form>
-            </div>
+        <div class="contact-form">
+            <form target="_blank" action="https://formsubmit.co/manojvamshi95@gmail.com" method="POST" />
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <input type="hidden" name="_subject" value="New message from website">
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
         </div>
-        
     </section>
 
     <div class="footer">
@@ -86,7 +84,7 @@
         <span>© 2023 Manoj Vamshi. All rights reserved.</span>
     </div>
     
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         document.getElementById('contact-form').addEventListener('submit', function (event) {
             event.preventDefault();
 
@@ -114,7 +112,7 @@
                     console.log('FAILED...', error);
                 });
         });
-    </script>
+    </script> -->
 
 </body>
 
