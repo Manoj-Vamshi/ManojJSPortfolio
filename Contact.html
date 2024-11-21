@@ -4,17 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact | Manoj Vamshi</title>
-    <link rel="stylesheet" href="style.css">
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-    </script>
-    <script type="text/javascript">
-        (function(){
-            emailjs.init({
-                publicKey: "fs8sQTZ4pKbJVxFB-",
-            });
-        })();
-    </script>
+    <link rel="stylesheet" href="Style.css">
 </head>
 <body>
     <div class="container">
@@ -84,36 +74,6 @@
         <span>© 2023 Manoj Vamshi. All rights reserved.</span>
     </div>
     
-    <!-- <script type="text/javascript">
-        document.getElementById('contact-form').addEventListener('submit', function (event) {
-            event.preventDefault();
-
-
-            var name = document.getElementById('name').value.trim();
-            var email = document.getElementById('email').value.trim();
-            var message = document.getElementById('message').value.trim();
-
-            if (!name || !email || !message) {
-                alert('Please fill in all the fields before submitting!');
-                return;
-            }
-            var templateParams = {
-                user_name: document.getElementById('name').value,
-                user_email: document.getElementById('email').value,
-                user_message: document.getElementById('message').value,
-            };
-
-            emailjs.send('service_GitVamshi', 'template_GitVamshi', templateParams)
-                .then(function (response) {
-                    alert('Message sent successfully!');
-                    console.log('SUCCESS!', response);
-                }, function (error) {
-                    alert('There was an error sending your message. Please try again.');
-                    console.log('FAILED...', error);
-                });
-        });
-    </script> -->
-
 </body>
 
 </html>
