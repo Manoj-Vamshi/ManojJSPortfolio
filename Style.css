@@ -186,67 +186,7 @@ h2 {
     margin-bottom: 30px;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-}
 
-.form-group {
-    margin-bottom: 20px;
-}
-
-label {
-    align-items: left;
-    font-size: 1rem;
-    color: #333;
-    margin-bottom: 8px;
-    display: block;
-}
-
-input, textarea {
-    width: 100%;
-    padding: 12px;
-    font-size: 1rem;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f9f9f9;
-    transition: border-color 0.3s ease-in-out;
-}
-
-input:focus, textarea:focus {
-    border-color: #4CAF50;
-    outline: none;
-}
-
-.submit-btn {
-    background-color: #f6a56f;
-    color: white;
-    border: none;
-    padding: 14px 20px;
-    font-size: 1.2rem;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
-}
-
-.submit-btn:hover {
-    background-color: #f6a56f;
-}
-
-@media screen and (max-width: 600px) {
-    .contact-container {
-        padding: 20px;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-    }
-
-    .submit-btn {
-        padding: 12px 18px;
-        font-size: 1rem;
-    }
-}
 
 .button-group1 {
     display: flex;
@@ -312,13 +252,70 @@ Contact page styling */
 }
 
 .contact-info,
-.contact-form {
+.contact-form , form{
+    display: flex;
+    flex-direction: column;
     background: white;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     width: 48%;
     margin-bottom: 20px;
+}
+
+
+
+label {
+    align-items: left;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input:focus, textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.submit-btn {
+    background-color: #f6a56f;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #f6a56f;
+}
+
+@media screen and (max-width: 600px) {
+    .contact-container {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .submit-btn {
+        padding: 12px 18px;
+        font-size: 1rem;
+    }
 }
 
 /* Contact Info Styling */
