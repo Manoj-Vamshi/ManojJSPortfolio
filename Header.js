@@ -4,22 +4,22 @@ function loadContent(page) {
     switch(page) {
         case 'Azure':
             html = `
-            <h2>Azure</h2>
+            <h2>Azure projects are yet to be added</h2>
             `;
             break;
-        case 'Phyton':
+        case 'Python':
             html = `
-            <h2>Phyton</h2>
+            <h2>Python projects are yet to be added</h2>
             `;
             break;
         case 'Java':
             html = `            
-            <h2>Java</h2>
+            <h2>Java projects are yet to be added</h2>
             `;
             break;
-        case 'javaScript':
+        case 'JavaScript':
             html = `
-            <h2>javaScript</h2>
+            <h2>JavaScript projects are yet to be added</h2>
             `;
             break;
         case 'reactJS':
@@ -30,12 +30,12 @@ function loadContent(page) {
         case 'Contact':
             html = `
             <h2>Contact</h2>
-            
             `;
             break;
         default:
             html = '<p>Page not found.</p>';
-        }
+    }
+    
 
         content.innerHTML = html;
     }
