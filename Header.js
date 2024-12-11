@@ -2,9 +2,9 @@ function loadContent(page) {
     const content = document.getElementById('content');
     let html = '';
     switch(page) {
-        case 'Azure':
+        case 'VRVevents':
             html = `
-            <h2>Azure projects are yet to be added</h2>
+            <h2>a React-based web application designed for managing events. You can explore the project for further details, features, and the specific technologies it uses.</h2>
             `;
             break;
         case 'Python':
