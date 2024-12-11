@@ -4,41 +4,38 @@ function loadContent(page) {
     switch(page) {
         case 'VRVevents':
             html = `
-            <h6>a React-based web application designed for managing events. You can explore the project for further details, features, and the specific technologies it uses.</h6><br><h6>You can view the project code on GitHub: <a href="https://github.com/Manoj-Vamshi/ReactProjectonEventManagement" target="_blank">https://github.com/manojvamshi/VRVevents</a></h6>
+            <h4 style="color: #333; font-size: 20px; font-family: Arial, sans-serif;">A React-based web application designed for managing events. You can explore the project for further details, features, and the specific technologies it uses.</h4><br>
+            <h6 style="color: #666; font-size: 16px;">You can view the project code on GitHub: 
+                <a href="https://github.com/Manoj-Vamshi/ReactProjectonEventManagement" target="_blank" style="color: #0066cc; text-decoration: none;">GitHub Link</a>
+            </h6>
             `;
             break;
-        case 'Python':
+        case 'Pixvibe':
             html = `
-            <h2>Python projects are yet to be added</h2>
+            <h4 style="color: #333; font-size: 20px; font-family: Arial, sans-serif;">A React-based web application that allows users to share photos in a visually appealing and organized way. The design is centered around visuals, with options to follow friends and comment on content.</h4><br>
+            <h6 style="color: #666; font-size: 16px;">You can view the project code on GitHub: 
+                <a href="https://github.com/Manoj-Vamshi/ReactProject-PicSharingApp" target="_blank" style="color: #0066cc; text-decoration: none;">GitHub Link</a>
+            </h6>
             `;
             break;
-        case 'Java':
-            html = `            
-            <h2>Java projects are yet to be added</h2>
+        case 'Portfolio':
+            html = `
+            <h4 style="color: #333; font-size: 24px; font-family: Arial, sans-serif;">A personal portfolio website created using JavaScript HTML CSS. It may showcase the individual's skills, projects, and other relevant information.</h4><br>
+            <h6 style="color: #666; font-size: 16px;">You can view the project code on GitHub: 
+                <a href="https://github.com/Manoj-Vamshi/ManojJSPortfolio" target="_blank" style="color: #0066cc; text-decoration: none;">GitHub Link</a>
+            </h6>
             `;
             break;
         case 'JavaScript':
             html = `
-            <h2>JavaScript projects are yet to be added</h2>
-            `;
-            break;
-        case 'reactJS':
-            html = `
-            <h2>reactJS</h2>
-            `;
-            break;
-        case 'Contact':
-            html = `
-            <h2>Contact</h2>
+            <h2 style="color: #333; font-size: 24px; font-family: Arial, sans-serif;">projects are yet to be added</h2>
             `;
             break;
         default:
-            html = '<p>Page not found.</p>';
-    }
-    
-
-        content.innerHTML = html;
+            html = '<p style="color: #999; font-size: 18px;">Page not found.</p>';
     }
 
+    content.innerHTML = html;
+}
 
-    loadContent('resume');
+loadContent('resume');
