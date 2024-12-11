@@ -4,7 +4,7 @@ function loadContent(page) {
     switch(page) {
         case 'VRVevents':
             html = `
-            <h2>a React-based web application designed for managing events. You can explore the project for further details, features, and the specific technologies it uses.</h2>
+            <h6>a React-based web application designed for managing events. You can explore the project for further details, features, and the specific technologies it uses.</h6><br><h6>You can view the project code on GitHub: <a href="https://github.com/Manoj-Vamshi/ReactProjectonEventManagement" target="_blank">https://github.com/manojvamshi/VRVevents</a></h6>
             `;
             break;
         case 'Python':
