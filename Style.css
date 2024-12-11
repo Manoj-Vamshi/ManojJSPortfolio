@@ -214,13 +214,11 @@ h2 {
     transform: scale(1.1);
 }
 
-.btn.Azure { background-color: #a8d080; }
-.btn.Python { background-color: #f6a56f; }
-.btn.Java { background-color: #7ac4d0; }
+.btn.VRVevents { background-color: #a8d080; }
+.btn.Pixvibe { background-color: #f6a56f; }
+.btn.Portfolio { background-color: #7ac4d0; }
 .btn.JavaScript { background-color: #bd6262; }
-.btn.HtmlCSS { background-color: #f4c542; }
-.btn.ReactJS { background-color: #244c56; }
-.btn.Contact { background-color: #f4b9bc; }
+
 
 
 /* ===========================
