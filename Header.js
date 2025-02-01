@@ -28,7 +28,10 @@ function loadContent(page) {
             break;
         case 'JavaScript':
             html = `
-            <h2 style="color: #333; font-size: 24px; font-family: Arial, sans-serif;">projects are yet to be added</h2>
+            <h4 style="color: #333; font-size: 24px; font-family: Arial, sans-serif;">An LMS website streamlines learning by offering flexibility, personalization, and automation, making it ideal for schools, corporate training, and self-paced learning programs.</h4><br>
+            <h6 style="color: #666; font-size: 16px;">You can view the project code on GitHub: 
+                <a href="https://github.com/varunteja436/Finalprojectlms" target="_blank" style="color: #0066cc; text-decoration: none;">GitHub Link</a>
+            </h6>
             `;
             break;
         default:
